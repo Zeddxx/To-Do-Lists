@@ -225,13 +225,14 @@ body{
     padding-right: 8px;
 }
 
-@media (max-width : 400px){
+@media screen and (width <= 468px){
     body{
         padding: 0 10px;
     }
 
     .wrapper{
         padding: 20px 0;
+        width: 90vw;
     }
 
     .filters span{
